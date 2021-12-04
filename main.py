@@ -9,3 +9,8 @@ matrix = np.array([[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]], [[1, 2, 3, 4, 5], [2, 3,
 for ndx, x in np.ndenumerate(matrix):
     print(ndx, x)
 
+x = 10
+y = 23
+
+z = x.__add__(y)
+print(z)
